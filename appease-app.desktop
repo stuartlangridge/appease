@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Appease
+Exec=qmlscene $@ main.qml
+Icon=icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

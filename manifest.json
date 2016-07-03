@@ -1,0 +1,21 @@
+{
+    "architecture": "armhf",
+    "description": "A fast and minimalist app scope",
+    "framework": "ubuntu-sdk-15.04.4",
+    "hooks": {
+        "appease-scope": {
+            "apparmor": "appease-scope.apparmor",
+            "scope": "appease"
+        },
+        "appease-app": {
+            "apparmor": "appease-app.apparmor",
+            "desktop": "appease-app.desktop"
+        }
+    },
+    "icon": "icon.png",
+    "installed-size": "25414",
+    "maintainer": "Stuart Langridge <sil@kryogenix.org>",
+    "name": "appease.sil",
+    "title": "appease",
+    "version": "0.1"
+}
